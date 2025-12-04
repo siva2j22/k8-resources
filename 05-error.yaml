@@ -4,5 +4,8 @@ metadata:
   name: error-test
 spec:
   containers:
-  - name: nginx
-    image: nginxeeeeee
+  #- name: nginx
+  #  image: nginxeeeeee
+  # here their was no running container.image pulling but running issue
+  - name: almalinux
+    image: almalinux:9

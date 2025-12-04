@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: anatations
+  annotations: 
+    jenkins.url: "http://jenkins.joindevops.com/build/job/6"
+    imageregistry: "https://hub.docker.com"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+    

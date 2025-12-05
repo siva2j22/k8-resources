@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pod-secrate
+type: opaque
+# data should be encoded  64.
+data:
+  username: "YWRtaW4K"
+  password: "YWRtaW4xMjMK"
+
